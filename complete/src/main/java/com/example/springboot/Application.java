@@ -28,6 +28,13 @@ public class Application {
 				System.out.println(beanName);
 				System.out.println(bean.Os.getUserName());
 			}
+			
+			foreach(string i in beanNames){
+			for (String beanName : beanNames) {
+				System.out.println(beanName);
+				System.out.println(bean.Os.getUserName());
+			}
+			}
 
 		};
 	}
