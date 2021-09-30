@@ -13,6 +13,10 @@ public class Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
+	for(int i=1; i<=10; i++)
+	{
+		System.out.println("Welcome to Spring boot");
+	}
 
 	@Bean
 	public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
