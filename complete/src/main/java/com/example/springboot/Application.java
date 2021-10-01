@@ -17,7 +17,6 @@ public class Application {
 	{
 		System.out.println("Welcome to Spring boot");
 	}
-
 	@Bean
 	public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
 		return args -> {
